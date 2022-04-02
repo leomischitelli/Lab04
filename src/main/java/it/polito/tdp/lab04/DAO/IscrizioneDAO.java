@@ -55,7 +55,6 @@ public class IscrizioneDAO {
 			PreparedStatement st = conn.prepareStatement(sql);
 			st.setInt(1, matricola);
 			st.setString(2, codins);
-			
 			st.close();
 			conn.close();
 			return true;
