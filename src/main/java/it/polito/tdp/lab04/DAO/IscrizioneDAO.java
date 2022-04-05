@@ -5,7 +5,7 @@ import java.sql.PreparedStatement;
 import java.sql.ResultSet;
 import java.sql.SQLException;
 
-import it.polito.tdp.lab04.model.Corso;
+
 
 public class IscrizioneDAO {
 	
